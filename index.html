@@ -74,15 +74,17 @@ display: flex;
     const botoes = ddocument.queryselectorAll("button");
 
     botoes.forEach( function (botao){
-
+let cirtiu = false;
     botao.addEventListener("click", botaoClicado)
 function botaoClicado(){
 console.log("ui clicado");
  let texto = botao.queryselector("span");
+ if (curtiu === false){
  texto.textcontent++;
-}
-    }
-
+ curtiu = true;
+}else
+texto.textContent--; 
+curtiu= false;
 )
     
 </script>
